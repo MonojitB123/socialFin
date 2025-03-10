@@ -1,0 +1,6 @@
+marimo
+goodfire 
+datasets 
+transformers
+graphviz
+sweetviz
