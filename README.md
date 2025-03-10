@@ -14,6 +14,8 @@ curl -LsSf https://astral.sh/uv/install.sh | sh
 uv venv --python 3.11 && source .venv/bin/activate
 ## Install the dependencies
 uv pip install -r requirements.txt
+## Set the GOODFIREAPI KEY
+export GOODFIRE_API_KEY=<your api key>
 ## Run the notebook using marimo
 marimo edit notebook.py 
 ```
